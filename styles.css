@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap')
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('srmgoat.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    flex-direction: column; /* Align items vertically */
+    margin-bottom: 50px; /* Increased margin for logo-container */
+}
+
+.img {
+    margin-right: 20px; /* Adjust margin for the image */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row; /* Align buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    margin-top: 20px; /* Adjust margin from the logo */
+}
+
+.buttons button {
+    margin-right: 10px; /* Adjust spacing between buttons */
+    padding: 10px 30px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0e2181;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+.buttons button:hover {
+    background-color: #1834be;
+}
+
+.animated-image {
+    width: 200px; /* Increase the size of the logo */
+    margin-bottom: 20px; /* Adjust margin for the logo */
+}
