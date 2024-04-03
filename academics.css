@@ -48,6 +48,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+    
 }
 
 button {
@@ -63,7 +64,7 @@ button {
     transition: background-color 0.3s ease;
     border-radius: 20px;
 }
-
+ 
 button:hover {
     background-color: #be9d18;
 }
@@ -71,10 +72,11 @@ button:hover {
 .info-button {
     padding: 20px;
     height: 100%;
-    width: 100%;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     color: #fff;
-    background-color: #3498db;
+    background-color: #0e2181;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
