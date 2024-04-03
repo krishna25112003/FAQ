@@ -53,9 +53,11 @@ body {
 button {
     padding: 20px;
     height: 100%;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     color: #fff;
-    background-color: #3498db;
+    background-color: #0e2181;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
