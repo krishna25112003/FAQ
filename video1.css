@@ -37,8 +37,8 @@ body {
 .video-container {
     border-radius: 20px;
     position: relative;
-    width: 90%; /* Adjust the width as needed */
-    height: 90%; /* Adjust the height as needed */
+    width: 80%; /* Adjust the width as needed */
+    height: 80%; /* Adjust the height as needed */
 }
 
 video {
