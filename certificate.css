@@ -50,37 +50,27 @@ body {
     grid-gap: 10px;
 }
 
-button {
+button, a.info-button {
+    display: block; /* Add this line to make the anchor tag a block-level element */
+    width: 100%;
     padding: 20px;
-    height: 100%;
     font-family: 'Sora', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    color: #fff;
+    margin-bottom: 10px;
     background-color: #0e2181;
+    color: white;
     border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
     border-radius: 20px;
+    cursor: pointer;
+    animation: slideIn 1s ease-out;
+}
+a{
+    text-decoration: none;
 }
 
 button:hover {
     background-color: #be9d18;
 }
 
-.info-button {
-    padding: 20px;
-    height: 100%;
-    width: 100%;
-    font-size: 16px;
-    color: #fff;
-    background-color: #3498db;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 20px;
-}
-
-.info-button:hover {
-    background-color: #be9d18;
-}
+ 
